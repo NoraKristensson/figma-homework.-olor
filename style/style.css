@@ -51,6 +51,9 @@
   left: 487px;
   top: 179px;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
   justify-self: center;
   align-self: center;
 }
@@ -60,7 +63,7 @@ h1 {
   font-size: 64px;
   line-height: 75px;
   text-align: center;
-  color: #ffffff;
+  color: black;
 }
 
 .heart {
@@ -73,7 +76,7 @@ h1 {
   font-size: 20px;
   line-height: 30px;
   text-align: center;
-  color: #f8f8f8;
+  color: black;
 }
 
 button {
