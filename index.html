@@ -16,19 +16,19 @@
     />
   </head>
   <body>
-    <header>
-      <div class="navigation">
-        <img class="earth" src="style/img/earth.png" alt="" />
-        <nav>
-          <a class="navlinks" href="#Red">Red</a>
-          <a class="navlinks" href="#Blur">Blue</a>
-          <a class="navlinks" href="#">Yellow</a>
-          <a class="navlinks" href="#Green"> Green</a>
-        </nav>
-      </div>
-    </header>
     <main>
       <div class="main-section">
+        <header>
+          <div class="navigation">
+            <img class="earth" src="style/img/earth.png" alt="" />
+            <nav>
+              <a class="navlinks navlinks--red" href="#Red">Red</a>
+              <a class="navlinks navlinks--blue" href="#Blue">Blue</a>
+              <a class="navlinks navlinks--yellow" href="#">Yellow</a>
+              <a class="navlinks navlinks--green" href="#Green"> Green</a>
+            </nav>
+          </div>
+        </header>
         <div class="middle">
           <h1>
             I <span class="heart"><i class="fas fa-heart"></i></span> color
@@ -44,29 +44,30 @@
       <div class="cards-container">
         <div class="card">
           <img src="style/img/Blue.png" alt="star" />
-          <h3>Blue</h3>
-          <p class="card-text">
+          <h3 class="cardtitle cardtitle--blue">Blue</h3>
+          <p class="cardtext cardtext--blue">
             Blue is the color of the sky and sea. It is often associated with
             depth and stability.
           </p>
         </div>
         <div class="card">
           <img src="style/img/green.png" alt="ufo-ship" />
-          <h3>Green</h3>
-          <p class="card-text">
+          <h3 class="cardtitle cardtitle--green">Green</h3>
+          <p class="cardtext cardtext--green">
             Green is the color of nature. It symbolizes growth, harmony,
             freshness and fertility.
           </p>
         </div>
         <div class="card">
           <img src="style/img/red.png" alt="boll" />
-          <h3>Red</h3>
-          <p class="card-text">
+          <h3 class="cardtitle cardtitle--red">Red</h3>
+          <p class="cardtext cardtext--red">
             Red is the color of fire and blood, so it assosiates with energy,
             strength, power determination, as well as, passion.
           </p>
         </div>
       </div>
+      <div class="rectangle"></div>
     </main>
   </body>
 </html>
